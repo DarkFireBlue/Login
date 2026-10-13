@@ -1,0 +1,52 @@
+.home-contenedor {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fff, #ffffff);
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.home-tarjeta {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.home-tarjeta h1 {
+  margin: 0 0 1.5rem;
+  font-size: 1.6rem;
+  color: #200248;
+}
+
+.datos-usuario {
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: left;
+}
+
+.datos-usuario p {
+  margin: 0.5rem 0;
+}
+
+.home-tarjeta button {
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  background: #1e0248;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.home-tarjeta button:hover {
+  background: #0e0133;
+}

@@ -1,0 +1,36 @@
+.sin-acceso-contenedor {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fff, #ffffff);
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.sin-acceso-tarjeta {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(13, 0, 32, 0.25);
+  text-align: center;
+}
+
+.sin-acceso-tarjeta h1 {
+  margin: 0 0 1.5rem;
+  font-size: 1.6rem;
+  color: #190248;
+}
+
+.sin-acceso-tarjeta a {
+  color: #130248;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.sin-acceso-tarjeta a:hover {
+  text-decoration: underline;
+}

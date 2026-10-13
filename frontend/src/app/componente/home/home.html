@@ -1,0 +1,16 @@
+<main class="home-contenedor">
+  <section class="home-tarjeta">
+    @if (rol === 'admin') {
+      <h1>Bienvenido administrador</h1>
+    } @else if (rol === 'cliente') {
+      <h1>Bienvenido cliente</h1>
+    }
+
+    <div class="datos-usuario">
+      <p><strong>Correo:</strong> {{ correo }}</p>
+      <p><strong>Username:</strong> {{ nombre }}</p>
+    </div>
+
+    <button type="button" (click)="cerrarSesion()">Cerrar sesión</button>
+  </section>
+</main>
